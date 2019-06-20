@@ -148,6 +148,8 @@ a:not([href]):not([tabindex]) {
     text-decoration: none; }
   a:not([href]):not([tabindex]):focus {
     outline: 0; }
+    a.E-Cell_Highlights, a.E-CEll_Highlights:hover{color: #343a40;
+      text-decoration: none; }
 
 pre,
 code,
@@ -8949,19 +8951,19 @@ textarea.form-control {
   background-repeat: no-repeat;
   background-position: center center; }
 
-.testimony-section {
+.Launchpad_Guests-section {
   position: relative;
   background: #6b76ff; }
-  .testimony-section .testimony-img {
+  .Launchpad_Guests-section .Launchpad_Guests-img {
     display: block;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center; }
     @media (min-width: 992px) {
-      .testimony-section .testimony-img {
+      .Launchpad_Guests-section .Launchpad_Guests-img {
         margin-top: -150px; } }
-  .testimony-section .overlay {
+  .Launchpad_Guests-section .overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -8970,23 +8972,23 @@ textarea.form-control {
     content: '';
     opacity: .7;
     background: #232931; }
-  .testimony-section .owl-carousel {
+  .Launchpad_Guests-section .owl-carousel {
     margin: 0; }
-  .testimony-section .owl-carousel .owl-stage-outer {
+  .Launchpad_Guests-section .owl-carousel .owl-stage-outer {
     padding-top: 0;
     padding-bottom: 0;
     position: relative; }
-  .testimony-section .owl-nav {
+  .Launchpad_Guests-section .owl-nav {
     position: absolute;
     bottom: 60px !important;
     left: 0;
     right: 0;
     margin: 0 auto; }
     @media (max-width: 991.98px) {
-      .testimony-section .owl-nav {
+      .Launchpad_Guests-section .owl-nav {
         display: none; } }
-    .testimony-section .owl-nav .owl-prev,
-    .testimony-section .owl-nav .owl-next {
+    .Launchpad_Guests-section .owl-nav .owl-prev,
+    .Launchpad_Guests-section .owl-nav .owl-next {
       position: absolute;
       width: 60px;
       height: 60px;
@@ -8997,58 +8999,58 @@ textarea.form-control {
       -ms-transition: all 0.7s ease;
       transition: all 0.7s ease;
       opacity: 1; }
-      .testimony-section .owl-nav .owl-prev span:before,
-      .testimony-section .owl-nav .owl-next span:before {
+      .Launchpad_Guests-section .owl-nav .owl-prev span:before,
+      .Launchpad_Guests-section .owl-nav .owl-next span:before {
         font-size: 20px;
         margin-top: 7px;
         color: #000000; }
-    .testimony-section .owl-nav .owl-prev {
+    .Launchpad_Guests-section .owl-nav .owl-prev {
       top: 0 !important;
       right: 0 !important; }
       @media (min-width: 992px) {
-        .testimony-section .owl-nav .owl-prev {
+        .Launchpad_Guests-section .owl-nav .owl-prev {
           right: 61px !important; } }
-      .testimony-section .owl-nav .owl-prev:hover, .testimony-section .owl-nav .owl-prev:focus {
+      .Launchpad_Guests-section .owl-nav .owl-prev:hover, .Launchpad_Guests-section .owl-nav .owl-prev:focus {
         background: #000000 !important;
         outline: none !important; }
-        .testimony-section .owl-nav .owl-prev:hover span:before, .testimony-section .owl-nav .owl-prev:focus span:before {
+        .Launchpad_Guests-section .owl-nav .owl-prev:hover span:before, .Launchpad_Guests-section .owl-nav .owl-prev:focus span:before {
           font-size: 20px;
           margin-top: 7px;
           color: #fff; }
-    .testimony-section .owl-nav .owl-next {
+    .Launchpad_Guests-section .owl-nav .owl-next {
       top: 0 !important;
       right: 0 !important; }
       @media (min-width: 992px) {
-        .testimony-section .owl-nav .owl-next {
+        .Launchpad_Guests-section .owl-nav .owl-next {
           right: 0 !important; } }
-      .testimony-section .owl-nav .owl-next:hover, .testimony-section .owl-nav .owl-next:focus {
+      .Launchpad_Guests-section .owl-nav .owl-next:hover, .Launchpad_Guests-section .owl-nav .owl-next:focus {
         background: #000000 !important;
         outline: none !important; }
-        .testimony-section .owl-nav .owl-next:hover span:before, .testimony-section .owl-nav .owl-next:focus span:before {
+        .Launchpad_Guests-section .owl-nav .owl-next:hover span:before, .Launchpad_Guests-section .owl-nav .owl-next:focus span:before {
           font-size: 24px;
           margin-top: 7px;
           color: #fff; }
-  .testimony-section .owl-dots .owl-dot {
+  .Launchpad_Guests-section .owl-dots .owl-dot {
     width: 10px;
     height: 10px;
     margin: 5px;
     border-radius: 50%;
     background: rgba(255, 255, 255, 0.3); }
-    .testimony-section .owl-dots .owl-dot.active {
+    .Launchpad_Guests-section .owl-dots .owl-dot.active {
       background: #fff; }
 
-.testimony-wrap {
+.Launchpad_Guests-wrap {
   display: block;
   position: relative;
   color: rgba(255, 255, 255, 0.8);
   font-size: 20px; }
-  .testimony-wrap .user-img {
+  .Launchpad_Guests-wrap .user-img {
     width: 80px;
     height: 80px;
     border-radius: 50%;
     position: relative;
     background-position: top center; }
-    .testimony-wrap .user-img .quote {
+    .Launchpad_Guests-wrap .user-img .quote {
       position: absolute;
       bottom: -10px;
       right: 0;
@@ -9059,22 +9061,22 @@ textarea.form-control {
       -moz-border-radius: 50%;
       -ms-border-radius: 50%;
       border-radius: 50%; }
-      .testimony-wrap .user-img .quote i {
+      .Launchpad_Guests-wrap .user-img .quote i {
         color: #fff; }
-  .testimony-wrap .text {
+  .Launchpad_Guests-wrap .text {
     padding-top: 6em;
     margin-top: -65px;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
     border-radius: 4px; }
-  .testimony-wrap .name {
+  .Launchpad_Guests-wrap .name {
     font-weight: 400;
     margin-bottom: 0;
     color: #fff;
     font-weight: 800;
     font-size: 20px; }
-  .testimony-wrap .position {
+  .Launchpad_Guests-wrap .position {
     font-size: 18px;
     color: rgba(255, 255, 255, 0.8); }
 

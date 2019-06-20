@@ -63,7 +63,7 @@
    $.Scrollax();
 
 	var carousel = function() {
-		$('.carousel-testimony').owlCarousel({
+		$('.carousel-Launchpad_Guests').owlCarousel({
 			autoplay: true,
 			autoHeight: true,
 			center: true,
