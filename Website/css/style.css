@@ -148,7 +148,8 @@ a:not([href]):not([tabindex]) {
     text-decoration: none; }
   a:not([href]):not([tabindex]):focus {
     outline: 0; }
-    a.E-Cell_Highlights, a.E-CEll_Highlights:hover{color: #343a40;
+    a.E-CEll_Highlights{color: #343a40;}
+    a.E-CEll_Highlights:hover{color: #343a40;
       text-decoration: none; }
 
 pre,
