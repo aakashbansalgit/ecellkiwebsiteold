@@ -1,35 +1,23 @@
 <!DOCTYPE html> 
 <html> 
   <head>
-    <title>jQuery UI Droppable : Setting the Tolerance of Draggable Elements </title> 
+    <title>Trying to make a rocket for my min website</title> 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.3/themes/hot-sneaks/jquery-ui.css" />
 	<script src="http://code.jquery.com/jquery-2.1.3.js"></script>
 	<script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
     <style>
-      .demoDrag, .demoDrop {font-family:Verdana; border:5px solid #ccc; padding:5px;
-            width: 100px; text-align: center; background-color: #fa4b2a;}
-        .demoDrop {margin-bottom: 10px; margin-right: 5px; height: 50px; width: 220px}
-        #dropBox {position: absolute; right: 10px;}
+        .rocketWidget {position: fixed; left: 50px; top: 100px;}
+        .platformWidget {font-family:Verdana; text-align: center;}
         div span {position: relative;}
-        .demoDrop.active {border: 10px solid blue;}
-      .demoDrop.hover {background-color: yellow; border:10px solid #444;}
-
     </style>
     <script>
          $(document).ready(function() {
-            $('.demoDrag').draggable();
+            $('.rocketWidget').draggable();
             
-            $('div.demoDrop').droppable({
+            $('div.platformWidget').droppable({
                 drop: function(event, ui) {
-                  ui.draggable.text("Status : Dropped"), window.open("contact.html")
-                  ;
-
-                },
-                activeClass: "active",
-                hoverClass: "hover",
-                tolerance: "fit"
-            });
+                     window.open("contact.html","_self");
+                }});
             
             $('#touch').droppable("option", "tolerance", "touch");
 
@@ -38,14 +26,14 @@
 </head> 
 <body>
      <div id="dropBox">
-        <div id="fit" class="demoDrop">
-            <span>Drop Zone- Fit</span>
+        <div id="touch" class="platformWidget">
+            <img src="images/rocketPlatform.jpg" alt="rocket Platform" width="220px">
         </div>
-        <div id="touch" class="demoDrop">
-            <span>Drop Zone - Touch</span>
+        <div id="touch" class="platformWidget">
+            <img src="images/rocketPlatform.jpg" alt="rocket Platform" width="220px">
         </div>        
     </div>
-    <div class="demoDrag">
-        <span>Drag This</span>
+    <div class="rocketWidget">
+        <img src="images/rocket.gif" alt="rocket" width="110px">
     </div>   
 </body>
