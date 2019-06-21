@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5,
 }
 
 
-.ftco-navbar-light {
+.E-Cell_Website-navbar-light {
 	background: transparent !important;
 	position: absolute;
 	top: 20px;
@@ -79,7 +79,7 @@ h1, h2, h3, h4, h5,
 		top: 0;
 		padding: 10px 15px;
 	}
-	&.ftco-navbar-light-2{
+	&.E-Cell_Website-navbar-light-2{
 		position: relative;
 		top: 0;
 		.navbar-nav {
@@ -178,7 +178,7 @@ h1, h2, h3, h4, h5,
 			}
 
 			
-			&.ftco-seperator {
+			&.E-Cell_Website-seperator {
 				position: relative;
 				margin-left: 20px;
 				padding-left: 20px;
@@ -452,7 +452,7 @@ h1, h2, h3, h4, h5,
 
 
 // Vision
-.ftco-Vision{
+.E-Cell_Website-Vision{
 	.text{
 		h2{
 			font-weight: 900;
@@ -484,7 +484,7 @@ h1, h2, h3, h4, h5,
 }
 
 //MISSION
-.ftco-mission{
+.E-Cell_Website-mission{
 	h3{
 		font-weight: 900;
 	}
@@ -649,7 +649,7 @@ h1, h2, h3, h4, h5,
 textarea.form-control {
 	height: inherit!important;
 }
-.ftco-vh-100 {
+.E-Cell_Website-vh-100 {
   height: 100vh;
   @include media-breakpoint-down(lg) {
   	height: inherit;
@@ -658,7 +658,7 @@ textarea.form-control {
   }
 }
 
-.ftco-animate {
+.E-Cell_Website-animate {
 	opacity: 0;
 	visibility: hidden;
 }
@@ -700,7 +700,7 @@ textarea.form-control {
 }
 
 
-.ftco-section {
+.E-Cell_Website-section {
 	padding: 7em 0;
 	position: relative;
 	@include media-breakpoint-down(sm){
@@ -708,14 +708,14 @@ textarea.form-control {
 	}
 }
 
-.ftco-no-pt{
+.E-Cell_Website-no-pt{
 	padding-top: 0 !important;
 }
-.ftco-no-pb{
+.E-Cell_Website-no-pb{
 	padding-bottom: 0 !important;
 }
 
-.ftco-bg-dark {
+.E-Cell_Website-bg-dark {
 	background: #3c312e;
 }
 
@@ -766,7 +766,7 @@ textarea.form-control {
 		}
 	}
 }
-.ftco-causes{
+.E-Cell_Website-causes{
 	position: relative;
 	.overlay{
 		position: absolute;
@@ -865,16 +865,16 @@ textarea.form-control {
 
 
 
-.ftco-footer {
+.E-Cell_Website-footer {
 	font-size: 16px;
 	background: #1e1e1e;
 	padding: 7em 0;
 	z-index: 0;
-	.ftco-footer-logo {
+	.E-Cell_Website-footer-logo {
 		text-transform: uppercase;
 		letter-spacing: .1em;
 	}
-	.ftco-footer-widget {
+	.E-Cell_Website-footer-widget {
 		h2 {
 			font-weight: normal;
 			color: $white;
@@ -910,7 +910,7 @@ textarea.form-control {
 			color: $white;
 		}
 	}
-	.ftco-heading-2 {
+	.E-Cell_Website-heading-2 {
 		font-size: 17px;
 		font-weight: 400;
 		color: $black;
@@ -918,7 +918,7 @@ textarea.form-control {
 }
 
 
-.ftco-footer-social {
+.E-Cell_Website-footer-social {
 	li {
 		list-style: none;
 		margin: 0 10px 0 0;
@@ -956,20 +956,20 @@ textarea.form-control {
 	}
 }
 .media {
-	.ftco-icon {
+	.E-Cell_Website-icon {
 		width: 100px;
 		span {
 			color: $primary;
 		}
 	}
 }
-.ftco-media {
+.E-Cell_Website-media {
 	background: $white;
 	border-radius: 0px;
 	.heading {
 		font-weight: normal;
 	}
-	&.ftco-media-shadow {
+	&.E-Cell_Website-media-shadow {
 		padding: 40px;
 		background: $white;
 		box-shadow: 0 10px 50px -15px rgba(0,0,0,.3);
@@ -987,12 +987,12 @@ textarea.form-control {
 		color: $primary;
 	}
 	&.text-center {
-		.ftco-icon {
+		.E-Cell_Website-icon {
 			margin: 0 auto;
 		}
 	}
 }
-.ftco-overflow-hidden {
+.E-Cell_Website-overflow-hidden {
 	overflow: hidden;
 }
 
@@ -1291,7 +1291,7 @@ textarea.form-control {
 		background: $black;
 	}
 }
-.ftco-counter {
+.E-Cell_Website-counter {
 	// padding: 6em 0;
 	@include media-breakpoint-down(lg){
 		background-position: center center !important;
@@ -1717,7 +1717,7 @@ textarea.form-control {
 
 
 
-#ftco-loader {
+#E-Cell_Website-loader {
 	position: fixed;
 	width:  96px;
 	height: 96px;
@@ -1733,7 +1733,7 @@ textarea.form-control {
 	z-index:1000;
 }
 
-#ftco-loader.fullscreen {
+#E-Cell_Website-loader.fullscreen {
 	padding:  0;
 	left:  0;
 	top:  0;
@@ -1745,13 +1745,13 @@ textarea.form-control {
 	box-shadow: none;
 }
 
-#ftco-loader.show {
+#E-Cell_Website-loader.show {
 	transition: opacity .4s ease-out, visibility 0s linear 0s;
 	visibility: visible;
 	opacity: 1;
 }
 
-#ftco-loader .circular {
+#E-Cell_Website-loader .circular {
   animation: loader-rotate 2s linear infinite;
   position: absolute;
   left:  calc(50% - 24px);
@@ -1760,7 +1760,7 @@ textarea.form-control {
   transform: rotate(0deg);
 }
 
-#ftco-loader .path {
+#E-Cell_Website-loader .path {
   stroke-dasharray: 1, 200;
   stroke-dashoffset: 0;
   animation: loader-dash 1.5s ease-in-out infinite;
