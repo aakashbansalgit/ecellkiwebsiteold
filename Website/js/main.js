@@ -199,7 +199,7 @@
 
 	var counter = function() {
 		
-		$('#section-counter, .hero-wrap, .ftco-counter, .ftco-volunteer').waypoint( function( direction ) {
+		$('#section-counter, .hero-wrap, .ftco-counter, .ftco-Vision').waypoint( function( direction ) {
 
 			if( direction === 'down' && !$(this.element).hasClass('ftco-animated') ) {
 

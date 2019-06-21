@@ -8469,26 +8469,26 @@ h1, h2, h3, h4, h5,
     color: #fff;
     font-size: 60px; }
 
-.ftco-volunteer .text h2 {
+.ftco-Vision .text h2 {
   font-weight: 900;
   font-size: 50px;
   line-height: 1.1;
   color: #000000; }
 
-.ftco-volunteer .img-volunteer {
+.ftco-Vision .img-Vision {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center; }
   @media (min-width: 992px) {
-    .ftco-volunteer .img-volunteer {
+    .ftco-Vision .img-Vision {
       margin-top: -70px; } }
 
-.ftco-volunteer .about-text h2 {
+.ftco-Vision .about-text h2 {
   font-weight: 900;
   font-size: 50px;
   line-height: 1.1;
   color: #fff; }
-  .ftco-volunteer .about-text h2 strong, .ftco-volunteer .about-text h2 span {
+  .ftco-Vision .about-text h2 strong, .ftco-Vision .about-text h2 span {
     font-weight: 900;
     color: rgba(255, 255, 255, 0.2); }
 
