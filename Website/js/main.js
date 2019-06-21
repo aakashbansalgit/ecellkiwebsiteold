@@ -199,7 +199,7 @@
 
 	var counter = function() {
 		
-		$('#section-counter, .hero-wrap, .E-Cell_Website-counter, .E-Cell_Website-Vision').waypoint( function( direction ) {
+		$('#section-counter, .E-Cell_Launchpad-wrap, .E-Cell_Website-counter, .E-Cell_Website-Vision').waypoint( function( direction ) {
 
 			if( direction === 'down' && !$(this.element).hasClass('E-Cell_Website-animated') ) {
 
