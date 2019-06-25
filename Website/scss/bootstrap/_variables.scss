@@ -200,18 +200,18 @@ $grid-breakpoints: (
 @include _assert-starts-at-zero($grid-breakpoints, "$grid-breakpoints");
 
 
-// Grid containers
+// Grid businesss
 //
-// Define the maximum width of `.container` for different screen sizes.
+// Define the maximum width of `.business` for different screen sizes.
 
-$container-max-widths: (
+$business-max-widths: (
   sm: 540px,
   md: 720px,
   lg: 960px,
   xl: 1140px
 ) !default;
 
-@include _assert-ascending($container-max-widths, "$container-max-widths");
+@include _assert-ascending($business-max-widths, "$business-max-widths");
 
 
 // Grid columns
@@ -746,7 +746,7 @@ $navbar-dark-brand-hover-color:           $navbar-dark-active-color !default;
 
 // Dropdowns
 //
-// Dropdown menu container and contents.
+// Dropdown menu business and contents.
 
 $dropdown-min-width:                10rem !default;
 $dropdown-padding-y:                .5rem !default;

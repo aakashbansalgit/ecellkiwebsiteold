@@ -1,22 +1,22 @@
-// Container widths
+// business widths
 //
-// Set the container width, and override it for fixed navbars in media queries.
+// Set the business width, and override it for fixed navbars in media queries.
 
 @if $enable-grid-classes {
-  .container {
-    @include make-container();
-    @include make-container-max-widths();
+  .business {
+    @include make-business();
+    @include make-business-max-widths();
   }
 }
 
-// Fluid container
+// Fluid business
 //
-// Utilizes the mixin meant for fixed width containers, but with 100% width for
+// Utilizes the mixin meant for fixed width businesss, but with 100% width for
 // fluid, full width layouts.
 
 @if $enable-grid-classes {
-  .container-fluid {
-    @include make-container();
+  .business-fluid {
+    @include make-business();
   }
 }
 

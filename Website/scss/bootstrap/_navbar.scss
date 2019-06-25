@@ -25,8 +25,8 @@
 
   // Because flex properties aren't inherited, we need to redeclare these first
   // few properties so that content nested within behave properly.
-  > .container,
-  > .container-fluid {
+  > .business,
+  > .business-fluid {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -139,8 +139,8 @@
 
     &#{$infix} {
       @include media-breakpoint-down($breakpoint) {
-        > .container,
-        > .container-fluid {
+        > .business,
+        > .business-fluid {
           padding-right: 0;
           padding-left: 0;
         }
@@ -163,9 +163,9 @@
           }
         }
 
-        // For nesting containers, have to redeclare for alignment purposes
-        > .container,
-        > .container-fluid {
+        // For nesting businesss, have to redeclare for alignment purposes
+        > .business,
+        > .business-fluid {
           flex-wrap: nowrap;
         }
 

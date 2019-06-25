@@ -490,7 +490,7 @@ h1, h2, h3, h4, h5,
 	}
 }
 
-.container{
+.business{
 	max-width: 1180px;
 }
 
@@ -1248,7 +1248,7 @@ textarea.form-control {
 	cursor: -moz-zoom-in;
 	cursor: zoom-in;
 }
-.mfp-with-zoom .mfp-container,
+.mfp-with-zoom .mfp-business,
 .mfp-with-zoom.mfp-bg {
   opacity: 0;
   -webkit-backface-visibility: hidden;
@@ -1258,14 +1258,14 @@ textarea.form-control {
   transition: all 0.3s ease-out;
 }
 
-.mfp-with-zoom.mfp-ready .mfp-container {
+.mfp-with-zoom.mfp-ready .mfp-business {
     opacity: 1;
 }
 .mfp-with-zoom.mfp-ready.mfp-bg {
     opacity: 0.8;
 }
 
-.mfp-with-zoom.mfp-removing .mfp-container, 
+.mfp-with-zoom.mfp-removing .mfp-business, 
 .mfp-with-zoom.mfp-removing.mfp-bg {
   opacity: 0;
 }
