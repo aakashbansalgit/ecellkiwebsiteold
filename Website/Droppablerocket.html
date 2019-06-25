@@ -6,14 +6,14 @@
 	<script src="http://code.jquery.com/jquery-2.1.3.js"></script>
 	<script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
     <style>
-        .rocketWidget {position: fixed; left: 10px; top: 200px;}
+        .rocketentrepreneur {position: fixed; left: 10px; top: 200px;}
         div span {position: relative;}
     </style>
     <script>
          $(document).ready(function() {
-            $('.rocketWidget').draggable();
+            $('.rocketentrepreneur').draggable();
             
-            $('div.platformWidget').droppable({
+            $('div.platformentrepreneur').droppable({
                 drop: function(event, ui) {
                      window.open("contact.html","_self");
                 }});
@@ -25,14 +25,14 @@
 </head> 
 <body>
      <div id="dropBox">
-        <div id="touch" class="platformWidget">
+        <div id="touch" class="platformentrepreneur">
             <img src="images/rocketPlatform.jpg" alt="rocket Platform" width="220px">
         </div></br></br></br></br></br></br></br></br></br>
-        <div id="touch" class="platformWidget">
+        <div id="touch" class="platformentrepreneur">
             <img src="images/rocketPlatform.jpg" alt="rocket Platform" width="220px">
         </div>        
     </div>
-    <div class="rocketWidget">
+    <div class="rocketentrepreneur">
         <img src="images/rocket.gif" alt="rocket" width="110px">
     </div>   
 </body>

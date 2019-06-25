@@ -1,7 +1,7 @@
 $(document).ready(function() {
-            $('.rocketWidget').draggable();
+            $('.rocketentrepreneur').draggable();
             
-            $('div.platformWidget').droppable({
+            $('div.platformentrepreneur').droppable({
                 drop: function(event, ui) {
                      window.open("contact.html","_self");
                 }});

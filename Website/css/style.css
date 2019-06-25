@@ -8797,20 +8797,20 @@ textarea.form-control {
   .E-Cell_Website-footer .E-Cell_Website-footer-logo {
     text-transform: uppercase;
     letter-spacing: .1em; }
-  .E-Cell_Website-footer .E-Cell_Website-footer-widget h2 {
+  .E-Cell_Website-footer .E-Cell_Website-footer-entrepreneur h2 {
     font-weight: normal;
     color: #fff;
     margin-bottom: 40px;
     font-size: 24px;
     font-weight: 900; }
-  .E-Cell_Website-footer .E-Cell_Website-footer-widget ul li a {
+  .E-Cell_Website-footer .E-Cell_Website-footer-entrepreneur ul li a {
     color: rgba(255, 255, 255, 0.4); }
-    .E-Cell_Website-footer .E-Cell_Website-footer-widget ul li a span {
+    .E-Cell_Website-footer .E-Cell_Website-footer-entrepreneur ul li a span {
       color: #fff; }
-  .E-Cell_Website-footer .E-Cell_Website-footer-widget .btn-primary {
+  .E-Cell_Website-footer .E-Cell_Website-footer-entrepreneur .btn-primary {
     background: #fff !important;
     border: 2px solid #fff !important; }
-    .E-Cell_Website-footer .E-Cell_Website-footer-widget .btn-primary:hover {
+    .E-Cell_Website-footer .E-Cell_Website-footer-entrepreneur .btn-primary:hover {
       background: #fff;
       border: 2px solid #fff !important; }
   .E-Cell_Website-footer p {
