@@ -5087,23 +5087,23 @@ a.close.disabled {
   padding: 0.5rem 0.75rem;
   color: #212529; }
 
-.carousel {
+.launchpad {
   position: relative; }
 
-.carousel.pointer-event {
+.launchpad.pointer-event {
   -ms-touch-action: pan-y;
   touch-action: pan-y; }
 
-.carousel-inner {
+.launchpad-inner {
   position: relative;
   width: 100%;
   overflow: hidden; }
-  .carousel-inner::after {
+  .launchpad-inner::after {
     display: block;
     clear: both;
     content: ""; }
 
-.carousel-item {
+.launchpad-item {
   position: relative;
   display: none;
   float: left;
@@ -5117,29 +5117,29 @@ a.close.disabled {
   transition: transform 0.6s ease-in-out;
   transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out; }
   @media (prefers-reduced-motion: reduce) {
-    .carousel-item {
+    .launchpad-item {
       -webkit-transition: none;
       -o-transition: none;
       transition: none; } }
 
-.carousel-item.active,
-.carousel-item-next,
-.carousel-item-prev {
+.launchpad-item.active,
+.launchpad-item-next,
+.launchpad-item-prev {
   display: block; }
 
-.carousel-item-next:not(.carousel-item-left),
-.active.carousel-item-right {
+.launchpad-item-next:not(.launchpad-item-left),
+.active.launchpad-item-right {
   -webkit-transform: translateX(100%);
   -ms-transform: translateX(100%);
   transform: translateX(100%); }
 
-.carousel-item-prev:not(.carousel-item-right),
-.active.carousel-item-left {
+.launchpad-item-prev:not(.launchpad-item-right),
+.active.launchpad-item-left {
   -webkit-transform: translateX(-100%);
   -ms-transform: translateX(-100%);
   transform: translateX(-100%); }
 
-.carousel-fade .carousel-item {
+.launchpad-fade .launchpad-item {
   opacity: 0;
   -webkit-transition-property: opacity;
   -o-transition-property: opacity;
@@ -5148,28 +5148,28 @@ a.close.disabled {
   -ms-transform: none;
   transform: none; }
 
-.carousel-fade .carousel-item.active,
-.carousel-fade .carousel-item-next.carousel-item-left,
-.carousel-fade .carousel-item-prev.carousel-item-right {
+.launchpad-fade .launchpad-item.active,
+.launchpad-fade .launchpad-item-next.launchpad-item-left,
+.launchpad-fade .launchpad-item-prev.launchpad-item-right {
   z-index: 1;
   opacity: 1; }
 
-.carousel-fade .active.carousel-item-left,
-.carousel-fade .active.carousel-item-right {
+.launchpad-fade .active.launchpad-item-left,
+.launchpad-fade .active.launchpad-item-right {
   z-index: 0;
   opacity: 0;
   -webkit-transition: 0s 0.6s opacity;
   -o-transition: 0s 0.6s opacity;
   transition: 0s 0.6s opacity; }
   @media (prefers-reduced-motion: reduce) {
-    .carousel-fade .active.carousel-item-left,
-    .carousel-fade .active.carousel-item-right {
+    .launchpad-fade .active.launchpad-item-left,
+    .launchpad-fade .active.launchpad-item-right {
       -webkit-transition: none;
       -o-transition: none;
       transition: none; } }
 
-.carousel-control-prev,
-.carousel-control-next {
+.launchpad-control-prev,
+.launchpad-control-next {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -5191,39 +5191,39 @@ a.close.disabled {
   -o-transition: opacity 0.15s ease;
   transition: opacity 0.15s ease; }
   @media (prefers-reduced-motion: reduce) {
-    .carousel-control-prev,
-    .carousel-control-next {
+    .launchpad-control-prev,
+    .launchpad-control-next {
       -webkit-transition: none;
       -o-transition: none;
       transition: none; } }
-  .carousel-control-prev:hover, .carousel-control-prev:focus,
-  .carousel-control-next:hover,
-  .carousel-control-next:focus {
+  .launchpad-control-prev:hover, .launchpad-control-prev:focus,
+  .launchpad-control-next:hover,
+  .launchpad-control-next:focus {
     color: #fff;
     text-decoration: none;
     outline: 0;
     opacity: 0.9; }
 
-.carousel-control-prev {
+.launchpad-control-prev {
   left: 0; }
 
-.carousel-control-next {
+.launchpad-control-next {
   right: 0; }
 
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
+.launchpad-control-prev-icon,
+.launchpad-control-next-icon {
   display: inline-block;
   width: 20px;
   height: 20px;
   background: no-repeat 50% / 100% 100%; }
 
-.carousel-control-prev-icon {
+.launchpad-control-prev-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e"); }
 
-.carousel-control-next-icon {
+.launchpad-control-next-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e"); }
 
-.carousel-indicators {
+.launchpad-indicators {
   position: absolute;
   right: 0;
   bottom: 0;
@@ -5239,7 +5239,7 @@ a.close.disabled {
   margin-right: 15%;
   margin-left: 15%;
   list-style: none; }
-  .carousel-indicators li {
+  .launchpad-indicators li {
     -webkit-box-sizing: content-box;
     box-sizing: content-box;
     -webkit-box-flex: 0;
@@ -5260,14 +5260,14 @@ a.close.disabled {
     -o-transition: opacity 0.6s ease;
     transition: opacity 0.6s ease; }
     @media (prefers-reduced-motion: reduce) {
-      .carousel-indicators li {
+      .launchpad-indicators li {
         -webkit-transition: none;
         -o-transition: none;
         transition: none; } }
-  .carousel-indicators .active {
+  .launchpad-indicators .active {
     opacity: 1; }
 
-.carousel-caption {
+.launchpad-caption {
   position: absolute;
   right: 15%;
   bottom: 20px;
@@ -8720,9 +8720,9 @@ textarea.form-control {
     content: '';
     opacity: .7;
     background: #232931; }
-  .E-Cell_Website-causes .owl-carousel {
+  .E-Cell_Website-causes .owl-launchpad {
     margin: 0; }
-  .E-Cell_Website-causes .owl-carousel .owl-stage-outer {
+  .E-Cell_Website-causes .owl-launchpad .owl-stage-outer {
     padding-top: 2em;
     padding-bottom: 0;
     position: relative; }
@@ -8973,9 +8973,9 @@ textarea.form-control {
     content: '';
     opacity: .7;
     background: #232931; }
-  .Launchpad_Guests-section .owl-carousel {
+  .Launchpad_Guests-section .owl-launchpad {
     margin: 0; }
-  .Launchpad_Guests-section .owl-carousel .owl-stage-outer {
+  .Launchpad_Guests-section .owl-launchpad .owl-stage-outer {
     padding-top: 0;
     padding-bottom: 0;
     position: relative; }

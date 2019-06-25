@@ -62,8 +62,8 @@
 	// Scrollax
    $.Scrollax();
 
-	var carousel = function() {
-		$('.carousel-Launchpad_Guests').owlCarousel({
+	var launchpad = function() {
+		$('.launchpad-Launchpad_Guests').owllaunchpad({
 			autoplay: true,
 			autoHeight: true,
 			center: true,
@@ -86,7 +86,7 @@
 				}
 			}
 		});
-		$('.carousel-causes').owlCarousel({
+		$('.launchpad-causes').owllaunchpad({
 			autoplay: true,
 			autoHeight: true,
 			center: true,
@@ -110,7 +110,7 @@
 			}
 		});
 	};
-	carousel();
+	launchpad();
 
 	$('nav .dropdown').hover(function(){
 		var $this = $(this);
