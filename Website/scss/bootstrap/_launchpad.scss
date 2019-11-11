@@ -67,13 +67,13 @@
   .launchpad-item.active,
   .launchpad-item-next.launchpad-item-left,
   .launchpad-item-prev.launchpad-item-right {
-    z-index: 1;
+    z-home: 1;
     opacity: 1;
   }
 
   .active.launchpad-item-left,
   .active.launchpad-item-right {
-    z-index: 0;
+    z-home: 0;
     opacity: 0;
     @include transition(0s $launchpad-transition-duration opacity);
   }
@@ -89,7 +89,7 @@
   position: absolute;
   top: 0;
   bottom: 0;
-  z-index: 1;
+  z-home: 1;
   // Use flex for alignment (1-3)
   display: flex; // 1. allow flex styles
   align-items: center; // 2. vertically center contents
@@ -147,7 +147,7 @@
   right: 0;
   bottom: 0;
   left: 0;
-  z-index: 15;
+  z-home: 15;
   display: flex;
   justify-content: center;
   padding-left: 0; // override <ol> default
@@ -189,7 +189,7 @@
   right: (100% - $launchpad-caption-width) / 2;
   bottom: 20px;
   left: (100% - $launchpad-caption-width) / 2;
-  z-index: 10;
+  z-home: 10;
   padding-top: 20px;
   padding-bottom: 20px;
   color: $launchpad-caption-color;

@@ -2,7 +2,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  z-index: $zindex-popover;
+  z-home: $zhome-popover;
   display: block;
   max-width: $popover-max-width;
   // Our parent element can be arbitrary since tooltips are by default inserted as a sibling of their target element.

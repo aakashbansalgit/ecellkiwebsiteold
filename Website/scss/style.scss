@@ -71,7 +71,7 @@ h1, h2, h3, h4, h5,
 	top: 20px;
 	left: 0;
 	right: 0;
-	z-index: 3;
+	z-home: 3;
 	padding: 0;
 	@include media-breakpoint-down(md) {
 		background: $black!important;
@@ -121,7 +121,7 @@ h1, h2, h3, h4, h5,
 
 	.navbar-brand {
 		color: $white;
-		z-index: 0;
+		z-home: 0;
 		span{
 			color: $primary;
 		}
@@ -403,7 +403,7 @@ h1, h2, h3, h4, h5,
 			  top: -10em;
 			  left: 0;
 			  height: 100%;
-			  z-index: 1;
+			  z-home: 1;
 			  font-size: 16px;
 			  text-transform: uppercase;
 			  letter-spacing: 2px;
@@ -425,7 +425,7 @@ h1, h2, h3, h4, h5,
 	.breadcrumbs{
 		font-size: 16px;
 		margin-bottom: 20px;
-		z-index: 99;
+		z-home: 99;
 		font-weight: 400;
 		span{
 			color: rgba(255,255,255,.8);
@@ -622,7 +622,7 @@ h1, h2, h3, h4, h5,
 		width: 360%;
 		background: lighten($primary,10%);
 		border: 1px solid red;
-		z-index: -1;
+		z-home: -1;
 		// background: #333644;
 	}
 	@include media-breakpoint-down(sm){
@@ -869,7 +869,7 @@ textarea.form-control {
 	font-size: 16px;
 	background: #1e1e1e;
 	padding: 7em 0;
-	z-index: 0;
+	z-home: 0;
 	.E-Cell_Website-footer-logo {
 		text-transform: uppercase;
 		letter-spacing: .1em;
@@ -1274,7 +1274,7 @@ textarea.form-control {
 
 #section-counter{
 	position: relative;
-	z-index: 0;
+	z-home: 0;
 	&:after{
 		position: absolute;
 		top: 0;
@@ -1282,7 +1282,7 @@ textarea.form-control {
 		bottom: 0;
 		right: 0;
 		content: '';
-		z-index: -1;
+		z-home: -1;
 		opacity: 0;
 		background: $black;
 	}
@@ -1726,7 +1726,7 @@ textarea.form-control {
 	opacity: 0; 
 	visibility: hidden;
 	transition: opacity .2s ease-out, visibility 0s linear .2s;
-	z-index:1000;
+	z-home:1000;
 }
 
 #E-Cell_Website-loader.fullscreen {

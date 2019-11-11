@@ -15,7 +15,7 @@
   > .form-control-plaintext,
   > .custom-select,
   > .custom-file {
-    position: relative; // For focus state's z-index
+    position: relative; // For focus state's z-home
     flex: 1 1 auto;
     // Add width 1% and flex-basis auto to ensure that button will not wrap out
     // the column. Applies to IE Edge+ and Firefox. Chrome does not require this.
@@ -33,12 +33,12 @@
   > .form-control:focus,
   > .custom-select:focus,
   > .custom-file .custom-file-input:focus ~ .custom-file-label {
-    z-index: 3;
+    z-home: 3;
   }
 
   // Bring the custom file input above the label
   > .custom-file .custom-file-input:focus {
-    z-index: 4;
+    z-home: 4;
   }
 
   > .form-control,
@@ -75,10 +75,10 @@
   // as our inputs.
   .btn {
     position: relative;
-    z-index: 2;
+    z-home: 2;
 
     &:focus {
-      z-index: 3;
+      z-home: 3;
     }
   }
 

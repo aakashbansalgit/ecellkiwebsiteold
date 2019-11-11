@@ -38,7 +38,7 @@
   .#{$state}-tooltip {
     position: absolute;
     top: 100%;
-    z-index: 5;
+    z-home: 5;
     display: none;
     max-width: 100%; // Contain to parent when possible
     padding: $form-feedback-tooltip-padding-y $form-feedback-tooltip-padding-x;
